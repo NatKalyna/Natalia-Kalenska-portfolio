@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 20px;
+  margin: 100px 20px;
 }
 
 h1 {
@@ -16,7 +16,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 50px;
   margin-bottom: 5px;
 }
 
@@ -90,4 +89,29 @@ a:hover {
 
 .launch-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    margin: 0px auto;
+  }
 }
